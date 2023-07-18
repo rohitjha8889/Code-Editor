@@ -1,0 +1,24 @@
+h1{
+text-align: center;
+}
+
+button{
+padding:10px 15px;
+margin-left: 40%;
+background: green;
+color: white;
+font-size: 30px;
+border:  none;
+border-radius:10px;
+
+}
+
+
+
+<h1> MY CODE EDITOR </h1>
+<button onclick="changeColor()"> Click here </button>
+
+function changeColor(x){
+x.style.background = "black";
+
+}
